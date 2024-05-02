@@ -1,0 +1,9 @@
+.header-image {
+    background: url('./images/OIP.jfif') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.text-white {
+    color: black;
+}

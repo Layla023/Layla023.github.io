@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="position: fixed; z-index: 10; width: 100%;">
+    <a class="navbar-brand text-white" style="margin-left: 20px;" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto" style="margin-right: 20px;">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#acceuil">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#expertise">Expertise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#projet">Projet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Accueil Section -->
+  <section id="acceuil" class="header-image text-center d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="text-white">
+      <h1 class="animate__animated animate__fadeInDown" style="color: white;">Bienvenue sur mon Portfolio</h1>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section id="expertise" class="container my-5 animate__animated animate__fadeInUp">
+    <h2 class="text-center">Expertise</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./images/al.jpg" class="card-img-top" alt="Mobile Development" style="height: 250px;">
+          <div class="card-body">
+            <h5 class="card-title">Développement Mobile</h5>
+            <p class="card-text">Création d'applications mobiles performantes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./images/R.png" class="card-img-top" alt="Web Development" style="height: 250px;">
+          <div class="card-body">
+            <h5 class="card-title">Développement Web</h5>
+            <p class="card-text">Conception de sites web innovants et réactifs dans le mode.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./images/el.jpg" class="card-img-top" alt="Étude et Analyse" style="height: 250px;">
+          <div class="card-body">
+            <h5 class="card-title">Étude et Analyse</h5>
+            <p class="card-text">Analyse approfondie des besoins et des solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projet Section -->
+  <section id="projet" class="container my-5 animate__animated animate__fadeInRight">
+    <h2 class="text-center">Projets</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Projet Santé</h5>
+            <p class="card-text">Projets liés au domaine de la santé.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Projet Éducation</h5>
+            <p class="card-text">Projets liés à l'éducation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Projet Commerce</h5>
+            <p class="card-text">Projets liés au commerce.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center">Contact</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6 hover-effect">
+        <div class="card">
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label pour="nom">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+              </div>
+              <div class="form-group">
+                <label pour="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+              </div>
+              <div class="form-group">
+                <label pour="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer text-center py-3 bg-dark">
+    <p class="text-white">© 2024 Layla Tous droits réservés.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
